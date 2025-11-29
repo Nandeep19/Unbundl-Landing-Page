@@ -1,0 +1,5 @@
+Deployment checklist:
+1. Create a GitHub repository and push the project files.
+2. Enable GitHub Pages in repo settings (select main branch / root).
+3. Or simply drag-and-drop the folder into Netlify to deploy.
+4. Or use Vercel CLI: `vercel` from the project directory.

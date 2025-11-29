@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Unbundl — Landing Page (Demo)</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/favicon.svg" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Unbundl</a>
+      <button id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" class="nav-toggle">☰</button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Build better products — faster</h1>
+          <p>Unbundl helps teams ship modular product experiences with clean tooling and modern workflows.</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#pricing">Get started</a>
+            <a class="btn ghost" href="#how">Learn more</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="assets/hero-illustration.svg" alt="Illustration showing modular components">
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features">
+      <div class="container">
+        <h2 class="section-title">Key features</h2>
+        <div class="features-grid">
+          <article class="feature-card">
+            <h3>Modular components</h3>
+            <p>Create reusable pieces that plug into any product flow.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Fast integration</h3>
+            <p>Integrate in minutes with minimal configuration.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Secure by design</h3>
+            <p>Privacy and security built into every release.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Analytics</h3>
+            <p>Get actionable insights and performance metrics.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="how" class="how">
+      <div class="container">
+        <h2 class="section-title">How it works</h2>
+        <ol class="how-steps">
+          <li><strong>Choose</strong> the components you need.</li>
+          <li><strong>Integrate</strong> with a single script tag or SDK.</li>
+          <li><strong>Monitor</strong> usage and optimize.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <h2 class="section-title">Pricing</h2>
+        <div class="pricing-grid">
+          <div class="plan">
+            <h3>Starter</h3>
+            <p class="price">Free</p>
+            <ul>
+              <li>Up to 3 components</li>
+              <li>Basic analytics</li>
+            </ul>
+            <a class="btn" href="#contact">Sign up</a>
+          </div>
+          <div class="plan featured">
+            <h3>Pro</h3>
+            <p class="price">$29/mo</p>
+            <ul>
+              <li>Unlimited components</li>
+              <li>Advanced analytics</li>
+            </ul>
+            <a class="btn primary" href="#contact">Start trial</a>
+          </div>
+          <div class="plan">
+            <h3>Enterprise</h3>
+            <p class="price">Contact</p>
+            <ul>
+              <li>Custom SLA</li>
+              <li>Dedicated support</li>
+            </ul>
+            <a class="btn" href="#contact">Contact sales</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2 class="section-title">What customers say</h2>
+        <div class="test-grid">
+          <blockquote class="test">
+            <p>“Using Unbundl reduced our time-to-market by weeks.”</p>
+            <cite>— Priya, Product Lead</cite>
+          </blockquote>
+          <blockquote class="test">
+            <p>“The analytics dashboard is a game changer for our roadmap decisions.”</p>
+            <cite>— Arjun, CTO</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <section id="contact" class="contact">
+      <div class="container contact-grid">
+        <div>
+          <h2 class="section-title">Stay in touch</h2>
+          <p>Send us your email and we'll reach out with a demo.</p>
+          <form id="contact-form" class="contact-form" novalidate>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@company.com" required>
+            <button class="btn primary" type="submit">Request demo</button>
+            <p id="form-message" class="form-message" aria-live="polite"></p>
+          </form>
+        </div>
+        <footer class="site-footer">
+          <p>&copy; 2025 Unbundl — Demo assignment. All rights reserved.</p>
+          <nav aria-label="Footer">
+            <a href="#">Privacy</a> · <a href="#">Terms</a>
+          </nav>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
